@@ -1,0 +1,115 @@
+#ifndef FUNCOES_H_INCLUDED
+#define FUNCOES_H_INCLUDED
+#define n 3
+
+// Struct usada para armazenar as informações de cada usuário.
+
+typedef struct participante{
+
+    char ocupacao, matricula[20], email[50], nome[50], nascimento[20], cpf[20];
+    struct participante *proximo;
+
+}Participante;
+
+/*
+*   Função responsável por retornar a posição inicial da lista.
+*/
+
+    Participante *Lista()
+
+/*
+*   Função responsável por exibir e retornar a opção a main.
+*/
+
+    int menu();
+
+/*
+*   Função responsável por cadastrar os usuários.
+*/
+
+   void cadastrar_usuario();
+
+
+/*
+*   Função responsável por adicionar os novos participantes a lista.
+*/
+
+    void add_lista(Participante *);
+
+/*
+*   Função responsável por criar a lista.
+*/
+
+    void criar_lista(Participante *);
+
+/*
+*   Função responsável por receber um caractere e exibir os cadastros com o caractere diferente do passado.
+*/
+
+    void p_lista(char);
+
+/*
+*   Função responsável por remover da lista o cadastro passado.
+*/
+
+    void rm_cadastro(Participante*);
+
+/*
+*   Função que permite a edição ou remoção do cadastro.
+*/
+
+    int editar_cadastro();
+
+/*
+*   Função que exibe os dados do participante passado
+*/
+
+    void p_cadastro(Participante);
+
+/*
+*   Função que grava os dados armazenados na memoria.
+*/
+
+    void gravar_dados();
+
+/*
+*   Busca o arquivo Cadastro.txt
+*/
+
+    int buscar_arq();
+
+/*
+*   Função que lê todos os dados do arquivo de texto Cadastro.txt.
+*/
+
+    void ler_arquivo();
+
+/*
+*   Cria o arquivo de texto data.txt.
+*/
+
+    void inserir_data_limite();
+
+/*
+*   Lê o arquivo de texto data.txt e compara os valores lidos com o horário do sistema. Retorna 1 se ultrapassar a data ou 0 se não.
+*/
+
+    int verificar_data();
+
+/*
+*   Exibe as opções administrativas.
+*/
+
+    void opcao_administrativa();
+
+/*
+*   Desaloca todo o espaço alocado.
+*/
+
+    void free_lista();
+
+
+//void ler_arquivo_formatado(char **lstring, int ltamanho_vetor, char lcaractere, char *larquivo);
+
+
+#endif // FUNCOES_H_INCLUDED

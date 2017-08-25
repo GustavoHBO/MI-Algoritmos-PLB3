@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main ()
+    {
+    char letra[2];
+    int num;
+    num = 02;
+    letra = ("%d", num);
+    printf ("%c%c", letra[])
+    }

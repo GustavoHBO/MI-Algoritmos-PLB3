@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1444612665 source:c:\users\gustavo\onedrive\atividades e pesquisas\pbl\problema 03\projeto\pbl3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"funcoes.h"
+
+1444612050 c:\users\gustavo\onedrive\atividades e pesquisas\pbl\problema 03\projeto\pbl3\funcoes.h
+
+1444613263 source:c:\users\gustavo\onedrive\atividades e pesquisas\pbl\problema 03\gustavo henrique - projeto final do mi - algoritmo\projeto\pbl3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"funcoes.h"
+
+1444612050 c:\users\gustavo\onedrive\atividades e pesquisas\pbl\problema 03\gustavo henrique - projeto final do mi - algoritmo\projeto\pbl3\funcoes.h
+
